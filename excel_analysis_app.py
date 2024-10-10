@@ -7,6 +7,7 @@ from scipy.stats import norm
 import plotly.express as px
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
+import openpyxl
 
 def hit_rate_cal(trials_score):
     hit = trials_score.eq("HIT").sum()
